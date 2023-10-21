@@ -1,0 +1,28 @@
+@import './variables.scss';
+@import './media.scss';
+@import "./mixins.scss";
+@import "./icons.scss";
+@import "./animations.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $default-font;
+  line-height: $default-line-height;
+  font-size: $default-font-size;
+  color: $color-grey-light;
+}
+
+.start-icons {
+  display: flex;
+  gap: 20px;
+  
+  & > i {
+    @include icon(45px, 45px);
+    background-color: $color-accent;
+  }
+}
