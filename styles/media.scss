@@ -2,25 +2,35 @@
 
 // 1400px+
 @media #{$ui-desktop-large} {
-
+  * {
+    background-color: darken(red, 30);
+  }
 }
 
 // 1024px-
 @media #{$ui-tablet-large} {
-
+  * {
+    background-color: darken(blue, 30);
+  }
 }
 
 // 768px-
 @media #{$ui-tablet} {
-
+  * {
+    background-color: darken(green, 30);
+  }
 }
 
 // 480px-
 @media #{$ui-mobile} {
-
+  * {
+    background-color: darken(yellow, 30);
+  }
 }
 
 // 320px-
 @media #{$ui-mobile-small} {
-
+  * {
+    background-color: darken(orange, 30);
+  }
 }
